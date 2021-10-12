@@ -1,0 +1,35 @@
+html,
+body,
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+}
+.header {
+  text-align: center;
+  margin-top: 5%;
+}
+.gallery {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  flex-wrap: wrap;
+}
+.card {
+  width: 27vw;
+  height: 50vh;
+  align-items: center;
+  position: relative;
+  background-color: [choose];
+  margin: 4vh auto;
+  box-shadow: 1% 1% [choose color];
+}
+.card-image {
+  height: 40%;
+  position: absolute;
+  bottom: 50%;
+}
